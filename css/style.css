@@ -1,0 +1,81 @@
+body {
+	font-family: 'Baloo Tamma', cursive;
+}
+
+.head {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.head h1 {
+	display: inline;
+}
+
+.head h2 {	
+	display: inline;
+	font-size: 35px;
+	color: #0d5f44;
+}
+
+a span {
+	color: #0d5f44;
+}
+
+.head a {
+	font-size: 17px;
+	margin-top: 5px;
+	float:right;
+}
+
+.alert a {
+	font-size: 17px;
+	color: #148c63;
+	text-decoration: none;
+}
+
+.NewContactForm, .contact{
+	margin-top: 30px;
+}
+
+.alert span {
+	margin-top: 5px;
+	margin-right: 5px;
+	font-family: 'Baloo Tamma', cursive;
+	color: #1ecf92;
+}
+
+.alert:hover {
+    background-color: #d9edf7;
+    
+}
+
+.contact .panel .panel-body span {
+	color: #2be24b;
+}
+
+.glyphicon-envelope:before, .glyphicon-arrow-left:before, .glyphicon-edit:before, .glyphicon-trash:before, .glyphicon-plus:before {
+	margin-right: 3px;
+}
+
+.contact .panel .panel-body .opciones .glyphicon-edit {
+	margin-right: 5px;
+}
+
+.modal-dialog {
+    width: 400px;
+    margin: 30px auto;
+}
+
+.modal-body span {
+	font-size: 17px;
+}
+
+.modal-header {
+	background-color: #c7e2c7;	
+	border-radius: 6px;
+	color: #4d984e;
+}
+
+.modal-content{
+    border-color: #3c763d;
+}

@@ -1,0 +1,16 @@
+<div class="head">
+	<h2>Lista de Contactos</h2>	
+	<a href="#/new"><span><i class="glyphicon glyphicon-plus" aria-hidden="true"></i>Nuevo-Contacto</span></a>
+	<div class="form-group has-feedback" style="margin-top: 25px">     
+        <input type="text" id="input" class="form-control" placeholder="Busca un contacto" ng-model="searchcontact">
+        <i class="glyphicon glyphicon-search form-control-feedback"></i> 
+    </div>
+</div>
+
+<div class="alert alert-success" ng-repeat="contact in modelContats.contacts | filter:searchcontact">
+	<a href="#/contact/{{contact.$id}}">{{contact.Name}}<br>
+	<span><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>{{contact.Email}}</span>
+	<span><i class="glyphicon glyphicon-phone" aria-hidden="true"></i>{{contact.Phone}}</span>
+	</a>
+</div>
+
